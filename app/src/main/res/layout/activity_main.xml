@@ -19,6 +19,7 @@
         app:layout_constraintVertical_weight="1"
         android:lines="5"
         style="@style/TextStyle"
+        tools:text="123.45"
         tools:ignore="MissingConstraints" />
 
 
@@ -50,7 +51,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="AC"
+                android:text="@string/action_clear"
                 tools:ignore="NestedWeights" />
 
             <Button
@@ -59,7 +60,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="±" />
+                android:text="@string/action_change_sign" />
 
             <Button
                 android:id="@+id/btnPercent"
@@ -67,7 +68,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="%" />
+                android:text="@string/action_percent" />
 
             <Button
                 android:id="@+id/btnDivision"
@@ -75,7 +76,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="÷" />
+                android:text="@string/action_divide" />
         </LinearLayout>
 
         <LinearLayout
@@ -92,7 +93,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="7"
+                android:text="@string/digit_7"
                 tools:ignore="NestedWeights" />
 
             <Button
@@ -101,7 +102,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="8" />
+                android:text="@string/digit_8" />
 
             <Button
                 android:id="@+id/btnNine"
@@ -109,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="9" />
+                android:text="@string/digit_9" />
 
             <Button
                 android:id="@+id/btnMultiplication"
@@ -117,7 +118,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="×" />
+                android:text="@string/action_multiply" />
         </LinearLayout>
 
         <LinearLayout
@@ -134,7 +135,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="4"
+                android:text="@string/digit_4"
                 tools:ignore="NestedWeights" />
 
             <Button
@@ -143,7 +144,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="5" />
+                android:text="@string/digit_5" />
 
             <Button
                 android:id="@+id/btnSix"
@@ -151,7 +152,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="6" />
+                android:text="@string/digit_6" />
 
             <Button
                 android:id="@+id/btnSubtraction"
@@ -159,7 +160,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="－" />
+                android:text="@string/action_subtract" />
         </LinearLayout>
 
         <LinearLayout
@@ -176,7 +177,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="1"
+                android:text="@string/digit_1"
                 tools:ignore="NestedWeights" />
 
             <Button
@@ -185,7 +186,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="2" />
+                android:text="@string/digit_2" />
 
             <Button
                 android:id="@+id/btnThree"
@@ -193,7 +194,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="3" />
+                android:text="@string/digit_3" />
 
             <Button
                 android:id="@+id/btnAddition"
@@ -201,7 +202,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="＋" />
+                android:text="@string/action_add" />
         </LinearLayout>
 
         <LinearLayout
@@ -218,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 style="@style/TextStyle"
-                android:text="0"
+                android:text="@string/digit_0"
                 tools:ignore="NestedWeights" />
 
 
@@ -228,7 +229,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="." />
+                android:text="@string/action_decimal" />
 
             <Button
                 android:id="@+id/btnEqual"
@@ -236,7 +237,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="@style/TextStyle"
-                android:text="=" />
+                android:text="@string/action_equals" />
         </LinearLayout>
     </LinearLayout>
 
